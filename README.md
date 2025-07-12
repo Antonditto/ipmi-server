@@ -108,3 +108,4 @@ To ensure that you can build for multiplatform you need to enable `docker buildx
 Replace the repository, and `<name>`:`<version>` respectively
 
 The resulting docker container can to be used with `-p 9595:80` if you want to quickly test it against `localhost:9595` via `docker run -p 9595:80 mneveroff/ipmi-server:latest`
+
